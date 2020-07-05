@@ -6,13 +6,9 @@ h1 {
   text-align: center;
 }
 
-div {
+div.row div {
   position: relative;
   background-color: grey;
-  margin: auto;
-}
-
-div.row div {
   border: 2px solid black;
   margin: 1%;
 }
@@ -23,7 +19,7 @@ h2 {
   margin-bottom: 5%;
   padding-left: 5%;
   padding-right: 5%;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 h2#chicken {
@@ -41,7 +37,7 @@ h2#sushi {
 p {
   width: 90%;
   margin: 5%;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
   clear: right;
 }
@@ -75,9 +71,9 @@ p {
   }
 
   /********** Small devices only **********/
-@media (max-width: 766px) {
+@media (max-width: 767px) {
   .col-sm-12 {
     float: left;
-    width: 98%;
+    width: 90%;
   }
 }
