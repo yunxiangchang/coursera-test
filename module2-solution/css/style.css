@@ -1,0 +1,83 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+div {
+  position: relative;
+  background-color: grey;
+  margin: auto;
+}
+
+div.row div {
+  border: 2px solid black;
+  margin: 1%;
+}
+
+h2 {
+  float: right;
+  margin: 0;
+  margin-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: 2px solid black;
+}
+
+h2#chicken {
+  background-color: gold;
+}
+
+h2#beef {
+  background-color: sienna;
+}
+
+h2#sushi {
+  background-color: lightgreen;
+}
+
+p {
+  width: 90%;
+  margin: 5%;
+  font-family: Helvetica;
+  color: white;
+  clear: right;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 31.33%;
+    margin: 1%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  
+  .col-md-6 {
+    width: 48%;
+  }
+  
+  .col-md-12 {
+    width: 98%;
+  }
+
+  /********** Small devices only **********/
+@media (max-width: 766px) {
+  .col-sm-12 {
+    float: left;
+    width: 98%;
+  }
+}
