@@ -1,0 +1,47 @@
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+
+#company-name {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 3em;
+	color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header button .icon-bar {
+	border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle.collapsed, .navbar-header button.collapsed .icon-bar {
+	background-color: grey;
+	border: 1px solid black;
+}
+
+.navbar-nav {
+	background-color: white;
+}
+
+li {
+	border: 2px solid black;
+	margin-bottom: -2px;
+}
+
+.navbar .navbar-collapse li a {
+	text-align: center;	
+    color: black;
+}
+
+div.row div {
+	background-color: grey;
+	margin-bottom: 30px;
+}
+
+div.row div h2 {
+	color: black;
+}
+
+div.row div p {
+	color: black;
+}
